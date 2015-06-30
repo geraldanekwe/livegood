@@ -1,0 +1,194 @@
+body {
+  padding: 50px;
+  font: 15px Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #707171;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.header {
+  display: inline-block;
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#logo {
+  margin-left: 9%;
+  margin-bottom: 2%;
+  width: 22%;
+  float: left;
+}
+
+#header-links {
+  width: 75%;
+  margin-left: 40%;
+  float: right;
+  position: absolute;
+  bottom: 0;
+}
+
+#header-links a {
+  font-size: 1.1em;
+  padding-right: 2%;
+}
+
+#thumbs {
+  width: 85%;
+  margin: 0 auto;
+  height: 300px;
+  border-bottom: 1px dotted #CBCBCB;
+}
+
+.thumb {
+  margin-top: 2%;
+  width: 30%;
+  float: left;
+  height: 300px;
+}
+
+.thumbnails {
+  margin-bottom: 2%;
+}
+
+#one {
+  margin-right: 3%;
+}
+
+#two {
+  margin-right: 3%;
+}
+
+.desc {
+  font-weight: bold;
+  color: #38816E;
+}
+
+.tiny {
+  font-size: 12px;
+  width: 105%;
+}
+
+.learn {
+  font-weight: bold;
+}
+
+#content {
+  width: 85%;
+  margin: 0 auto;
+  border-top: 1px dotted #CBCBCB;
+}
+
+.nav-thing {
+  float: left;
+  margin-left: -4%;
+  margin-top: 2%;
+  width: 20%;
+  height: 1000px;
+  font-size: 0.8em;
+}
+
+.nav-thing > a {
+  padding-bottom: 2%;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 4%;
+}
+
+#main-content {
+  float: left;
+  width: 80%;
+}
+
+#quote {
+  width: 30%;
+  background-color: #E3E2E2;
+  height: 1000px;
+  margin-top: 2%;
+  float: left;
+}
+
+#good {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 10%;
+  color: green;
+  border-bottom: 1px dotted #CBCBCB;
+}
+
+#how {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#text-stuff {
+  width: 68%;
+  color: #888787;
+  margin-top: 5%;
+  float: right;
+}
+
+#images {
+  background-image: url('../assets/slider.jpg');
+  background-repeat: no-repeat;
+  width: 85%;
+  height: 399px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+#images img {
+  width: 940px;
+  height: 399px;
+  position: absolute;
+  top: 0;
+  left: -940;
+  z-index: 1;
+  opacity: 0;
+  transition: all linear 500ms;
+  -o-transition: all linear 500ms;
+  -moz-transition: all linear 500ms;
+  -webkit-transition: all linear 500ms;
+}
+
+#images img:target {
+  left: 0;
+  z-index: 9;
+  opacity: 1;
+}
+
+#images img:first-child {
+  left: 0;
+}
+
+#slider {
+  position: relative;
+  z-index: 12;
+  margin-top: 38%;
+  margin-left: 78%;
+}
+
+#slider a {
+  text-decoration: none;
+  background: #CBCBCB;
+  width: 40px;
+  height: 40px;
+  padding: 7px 12px 7px 12px;
+  border: 1px solid #CBCBCB;
+  border-radius: 60%;
+  margin-right: 5%;
+}
+
+#slider a:hover {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}

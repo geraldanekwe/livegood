@@ -1,0 +1,38 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    div.container
+      div.header
+        #logo
+          img(src='/assets/logo.png')
+        #header-links
+          a(href='#') Products
+          a(href='#') Our Mission
+          a(href='#') Sustainability
+          a(href='#') Dye Process
+          a(href='#') Olympic Gold Standard
+          a(href='#') Press
+      #slider
+        img(src='/assets/slider.jpg')
+      #thumbs
+        #one.thumb
+          img.thumbnails(src='/assets/thumb1.jpg')
+          p.desc New Organic Supima Collection
+          p.tiny Live Good is one of the few companies in the world with access to Organic Supima cotton. Known as the "cashmere of cotton," Supima's longer strand length creates the softest and strongest cotton fabric available, retaining brilliant color and lustrous sheen.
+            span.learn  >Learn More
+        #two.thumb
+          img.thumbnails(src='/assets/thumb2.jpg')
+          p.desc 100% Certified Organic Product Line
+          p.tiny The harmful effects of chemical pesticides and fertilizers on human and enviromental health have been well documented. Conscientious consumers look for natural products that have undergone rigorous inspection to earn the organic label.
+            span.learn  >Learn More
+        #three.thumb
+          img.thumbnails(src='/assets/thumb3.jpg')
+          p.desc Our Mission and Ethics
+          p.tiny To Live Good means to live both sustainably and well. Our pledge is to provide you with the tools and resources to enjoy a lifestyle that honors your own needs as well and those of the planet and the communities in which we live.
+            span.learn  >Learn More
+          
+  body
+    block content
